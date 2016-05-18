@@ -15,6 +15,7 @@
 		019FB1711CEACC6400AD56E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019FB16F1CEACC6400AD56E3 /* LaunchScreen.storyboard */; };
 		019FB17C1CEACC6400AD56E3 /* AnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 019FB17B1CEACC6400AD56E3 /* AnimationTestTests.m */; };
 		019FB1871CEACC6400AD56E3 /* AnimationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 019FB1861CEACC6400AD56E3 /* AnimationTestUITests.m */; };
+		019FB1951CEACCE500AD56E3 /* luntai-069.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 019FB1941CEACCE500AD56E3 /* luntai-069.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		019FB1821CEACC6400AD56E3 /* AnimationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		019FB1861CEACC6400AD56E3 /* AnimationTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTestUITests.m; sourceTree = "<group>"; };
 		019FB1881CEACC6400AD56E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019FB1941CEACCE500AD56E3 /* luntai-069.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "luntai-069.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		019FB1601CEACC6400AD56E3 /* AnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				019FB1941CEACCE500AD56E3 /* luntai-069.jpg */,
 				019FB1641CEACC6400AD56E3 /* AppDelegate.h */,
 				019FB1651CEACC6400AD56E3 /* AppDelegate.m */,
 				019FB1671CEACC6400AD56E3 /* ViewController.h */,
@@ -207,6 +210,7 @@
 				TargetAttributes = {
 					019FB15D1CEACC6400AD56E3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = N7XBVXGJLT;
 					};
 					019FB1761CEACC6400AD56E3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -245,6 +249,7 @@
 			files = (
 				019FB1711CEACC6400AD56E3 /* LaunchScreen.storyboard in Resources */,
 				019FB16E1CEACC6400AD56E3 /* Assets.xcassets in Resources */,
+				019FB1951CEACCE500AD56E3 /* luntai-069.jpg in Resources */,
 				019FB16C1CEACC6400AD56E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.AnimationTest;
@@ -426,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnimationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.AnimationTest;
